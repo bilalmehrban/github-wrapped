@@ -11,14 +11,14 @@ export default function Report({ username, commits, stars, pr, issues, reportRef
 
   return (
     <div className="profile__report" ref={reportReference}>
-      <img src="/assets/images/report_bg.png" className="report__bg" />
+      <img src="/assets/images/report_bg.png" className="report__bg" alt="background" />
 
       <div className="report__content">
         <h2 className="report__username">
           <span className="highlight">{username}</span> 's
         </h2>
         <div className="report__header">
-          <h2>2020</h2>
+          <h2>2021</h2>
           <h4>Year in review</h4>
         </div>
 

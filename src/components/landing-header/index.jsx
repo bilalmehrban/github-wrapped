@@ -8,7 +8,7 @@ export default function LandingHeader({
   return (
     <>
       <h2 className="landing__year__in__review">GitHub Wrapped</h2>
-      <h1 className="landing__2020">2020</h1>
+      <h1 className="landing__2020">2021</h1>
 
       <p className="landing__p1">
         This has been a challenging year for all of us.
@@ -34,7 +34,7 @@ export default function LandingHeader({
       />
       <div
         className="input__helper__text"
-        style={{ opacity: username == "" ? 0 : 1 }}
+        style={{ opacity: username === "" ? 0 : 1 }}
       >
         Press 'Enter' to submit
       </div>

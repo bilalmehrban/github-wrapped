@@ -42,7 +42,7 @@ export default function ProfilePage() {
   const fetchReport = async () => {
     const req = await getUserReport(username);
 
-    if (req.error_code == 1) {
+    if (req.error_code === 1) {
       setError(`0xb00${req.error_code}`);
     } else {
       let _data = req.data;
